@@ -3,7 +3,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.sql.Array;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 @SpringBootApplication
@@ -28,10 +30,13 @@ public class ResturantBillingSystemApplication {
 			System.out.println("What Would You Like");
 
 			int mealNumber = scan.nextInt();
-			double cost = Menu[i].getPrice;
-			Bill[] bill  = new Bill[]{
+			double cost = menu[mealNumber -1].getPrice();
+			System.out.println(cost);
+			double bill[];
+			bill = new double[customers];
+			System.out.println(bill);
 
-			};
+
 		}
 
 		}
