@@ -28,7 +28,10 @@ public class ResturantBillingSystemApplication {
 			System.out.println("What Would You Like");
 
 			int mealNumber = scan.nextInt();
+			double cost = Menu[i].getPrice;
+			Bill[] bill  = new Bill[]{
 
+			};
 		}
 
 		}
