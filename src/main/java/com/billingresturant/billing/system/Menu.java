@@ -27,8 +27,8 @@ public class Menu{
     public String toString() {
         return "Main:  " + this.main + ".\n"
                 + "Price:    " + this.price + ".\n";
+        }
     }
 
 
 
-}
