@@ -31,7 +31,9 @@ public class Menu{
         this.price = price;
     }
     public String toString() {
-        return "Main:  " + this.main + ".\n"
+
+        return "No." + number + ".\n"
+        + "Main:  " + this.main + ".\n"
                 + "Price:    " + this.price + ".\n";
         }
     }
